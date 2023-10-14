@@ -4,7 +4,7 @@
     font-family: 'Poppins' , sans-serif;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#FFB6C1), url(images/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),#da903b), url(images/banner.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -59,7 +59,7 @@
     position: fixed;
     right: -250px;
     top: 0;
-    background: #FFB6C1;
+    background: #DA903B;
     z-index: 20;
     transition: 0.5s;
 }
@@ -75,7 +75,7 @@ nav ul li a{
 #menubtn{
     width: 50px;
     height: 50px;
-     background: #FFB6C1;
+     background: #DA903B;
     text-align: center;
     right: 30px;
     top: 20px;
@@ -108,7 +108,7 @@ nav ul li a{
 }
 .title-text p{
     margin: auto;
-    color: #FFB6C1;
+    color: #DA903B;
     font-size: 20px;
     font-weight: bold;
 }
@@ -141,7 +141,7 @@ nav ul li a{
     margin-bottom: 10px;
     font-weight: 100;
     width: 70%;
-    color: #FFB6C1;
+    color: #DA903B;
 }
 .feature-desc{
     display: flex;
@@ -154,8 +154,8 @@ nav ul li a{
     font-size: 30px;
     line-height: 50px;
     border-radius: 8px;
-    color: #FFB6C1;
-    border: 1px solid #FFB6C1;
+    color: #DA903B;
+    border: 1px solid #DA903B;
 }
 .feature-text p{
     padding: 0 20px;
@@ -209,7 +209,7 @@ nav ul li a{
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0.5),#FFB6C1);
+    background: linear-gradient(rgba(0,0,0,0.5),#DA903B);
     opacity: 0;
     transition: 1s;
 }
@@ -278,7 +278,7 @@ hr{
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #FFB6C1;
+    box-shadow: 0 10px 20px 3px #DA903B;
     cursor: pointer;
     transition: transform .5s;
 }
@@ -301,7 +301,7 @@ hr{
     font-size: 20px;
 }
 .user-info small{
-    color: #FFB6C1;
+    color: #DA903B;
 }
 .testimonial-col:hover{
     transform: translateY(7px);
@@ -342,7 +342,7 @@ hr{
 }
 .footer-left .fa,.footer-right .fa{
     font-size: 20px;
-    color: #FFB6C1;
+    color: #DA903B;
     margin: 10px;
 }
 .footer-img{
@@ -361,14 +361,14 @@ hr{
     width: 40px;
     font-size: 20px;
     line-height: 40px;
-    border: 1px solid #FFB6C1;
+    border: 1px solid #DA903B;
     margin: 40px 5px 0;
-    color: #FFB6C1;
+    color: #DA903B;
     cursor: pointer;
     transition: .5s;
 }
 .social-links .fa:hover{
-    background: #FFB6C1;
+    background: #DA903B;
     color: white;
     transform: translateY(-7px);
 }
@@ -377,7 +377,7 @@ hr{
     margin-top: 20px;
 }
 .social-links span{
-    color: #FFB6C1;
+    color: #DA903B;
 }
 @media screen and (max-width: 770px){
     .footer-left,.footer-right{
