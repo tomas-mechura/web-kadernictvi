@@ -10,13 +10,15 @@
     height: 100vh;
 }
 .logo{
-    width: 80px;
+    width: 60px;
     position: absolute;
     top: 4%;
     left: 10%;
 }
 .full-logo{
-    width: 591px;
+    width: 80%;
+    max-width: 591px;
+    min-width: 300px;
 }
 .home-text{
     text-align: center;
