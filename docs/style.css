@@ -20,8 +20,9 @@
 }
 .full-logo{
     width: 80%;
-    max-width: 591px;
+    max-width: 720px;
     min-width: 300px;
+    padding-bottom: 1em;
 }
 .home-text{
     text-align: center;
@@ -33,9 +34,9 @@
     font-family: 'Kaushan Script', cursive;
 }
 .home-text p{
-    font-size: 40px;
+    font-size: 32px;
     font-style: italic;
-    padding-top: 1.3em;
+    padding-top: 1em;
 }
 .home-text h2{
     font-size: 20px;
@@ -267,64 +268,11 @@ hr{
     }
 }
 
-/* review */
-
-#review{
-    width: 100%;
-    padding: 70px 0;
-}
-.review-row{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-.review-col{
-    flex-basis: 28%;
-    padding: 10px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #DA903B;
-    cursor: pointer;
-    transition: transform .5s;
-}
-.review-col p{
-    font-size: 14px;
-}
-.user{
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-}
-.user img{
-    width: 40%;
-    margin-right: 20px;
-    border-radius: 3px;
-}
-.user-info .fa{
-    margin-left: 10px;
-    color: aqua;
-    font-size: 20px;
-}
-.user-info small{
-    color: #DA903B;
-}
-.review-col:hover{
-    transform: translateY(7px);
-}
-@media screen and (max-width: 770px){
-    .review-col{
-        flex-basis: 100%;
-    }
-}
-
 /* footer */
 
 #footer{
     padding: 100px 0 20px;
-    background: #efefef;
+    /* background: #efefef; */
     position: relative;
 }
 .footer-row{
