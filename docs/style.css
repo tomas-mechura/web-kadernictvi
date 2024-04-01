@@ -275,6 +275,18 @@ hr{
     /* background: #efefef; */
     position: relative;
 }
+.time {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    white-space: nowrap;
+}
+.time-col1 {
+    padding-right: 1em;
+}
+.time-col2 {
+    flex-grow: 1;
+}
 .footer-row{
     width: 80%;
     margin: 0 auto;
